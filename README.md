@@ -4,7 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Web: Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+iOS: Run `tns run ios`. The app will appear in your Xcode simulator.
+
+Android: Run `tns run android`. The app will appear in your Android Studio simulator.
+
+Alternatively, download the NativeScript Preview and Playground apps. Run `tns preview` and then use the NativeScript Playground app on your device to scan the QR code generated. This will open the slp-aide in your NativeScript Preview app.
 
 ## Code scaffolding
 
