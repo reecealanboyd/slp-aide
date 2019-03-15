@@ -1,5 +1,30 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<ActionBar [title]="title"></ActionBar>
-<StackLayout  class="p-20">
-    <Label text="Welcome to {{ title }}!" class="h1 text-center" textWrap="true"></Label>
-</StackLayout>
+<TabView height="300px">
+    <StackLayout *tabItem="{title: 'Tab 1'}">
+        <ActionBar title="Students" class="action-bar"></ActionBar>
+        <Label text="Label in Tab 1"></Label>
+        <ListView class="list-group" [items]="countries" (itemTap)="onItemTap($event)"
+            style="height:1250px">
+            <ng-template let-country="item">
+                <FlexboxLayout flexDirection="row" class="list-group-item">
+                    <Image [src]="country.imageSrc" class="thumb img-circle"></Image>
+                    <Label [text]="country.name" class="list-group-item-heading"
+                        verticalAlignment="center" style="width: 60%"></Label>
+                </FlexboxLayout>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Tab 2'}">
+        <ActionBar title="Assignments" class="action-bar"></ActionBar>
+        <Label text="Label in Tab 2"></Label>
+        <ListView class="list-group" [items]="countries" (itemTap)="onItemTap($event)"
+            style="height:1250px">
+            <ng-template let-country="item">
+                <FlexboxLayout flexDirection="row" class="list-group-item">
+                    <Image [src]="country.imageSrc" class="thumb img-circle"></Image>
+                    <Label [text]="country.name" class="list-group-item-heading"
+                        verticalAlignment="center" style="width: 60%"></Label>
+                </FlexboxLayout>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+</TabView>
