@@ -1,7 +1,10 @@
 {
   "name": "slp-aide",
   "nativescript": {
-    "id": "org.nativescript.slpaide"
+    "id": "org.nativescript.slpaide",
+    "tns-ios": {
+      "version": "5.2.0"
+    }
   },
   "version": "0.0.0",
   "scripts": {
