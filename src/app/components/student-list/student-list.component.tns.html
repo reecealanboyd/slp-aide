@@ -1,14 +1,13 @@
   <ListView
     class="list-group"
-    [items]="countries"
-    (itemTap)="onItemTap($event)"
+    [items]="students"
+    (itemTap)="onSelectStudent($event)"
     style="height:100%"
   >
-    <ng-template let-country="item">
+    <ng-template let-student="item">
       <FlexboxLayout flexDirection="row" class="list-group-item">
-        <Image [src]="country.imageSrc" class="thumb img-circle"></Image>
         <Label
-          [text]="country.name"
+          [text]="student.initials"
           class="list-group-item-heading"
           verticalAlignment="center"
           style="width: 60%"
