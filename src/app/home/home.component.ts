@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ItemEventData } from "tns-core-modules/ui/list-view"
 
 @Component({
   selector: 'app-home',

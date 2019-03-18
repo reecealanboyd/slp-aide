@@ -1,1 +1,20 @@
-<Button text="attempt-list works!" class="btn btn-primary"></Button>
+<StackLayout>
+        <ListView
+          class="list-group"
+          [items]="attempts"
+          (itemTap)="onSelectAttempt($event)"
+          style="height:100%"
+        >
+          <ng-template let-attempt="item">
+            <FlexboxLayout flexDirection="row" class="list-group-item">
+              <Label
+                [text]="attempt.score"
+                class="list-group-item-heading"
+                verticalAlignment="center"
+                style="width: 60%"
+              ></Label>
+            </FlexboxLayout>
+          </ng-template>
+        </ListView>
+      </StackLayout>
+      

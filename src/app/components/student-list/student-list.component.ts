@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ItemEventData } from 'tns-core-modules/ui/list-view/list-view';
 import { Student } from '~/app/models/student/student';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-student-list',
@@ -11,7 +12,7 @@ export class StudentListComponent implements OnInit {
 
   students: Student[] = [];
 
-  constructor() {
+  constructor(private router: Router) {
     this.students = [
       {
         assignments: [],
@@ -36,6 +37,7 @@ export class StudentListComponent implements OnInit {
 
   onSelectStudent(args: ItemEventData): void {
     console.log('Item with index: ' + args.index + ' tapped');
+    this.router.navigate(["/student"]);
 }
 
 }

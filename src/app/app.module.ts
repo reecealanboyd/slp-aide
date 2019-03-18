@@ -13,6 +13,7 @@ import { AttemptListComponent } from './components/attempt-list/attempt-list.com
 import { AttemptComponent } from './components/attempt/attempt.component';
 import { LoginComponent } from './components/login/login.component';
 import { LanguageComponent } from './components/language/language.component';
+import { AssignmentControlComponent } from './components/assignment-control/assignment-control.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { LanguageComponent } from './components/language/language.component';
     AttemptComponent,
     LoginComponent,
     LanguageComponent,
+    AssignmentControlComponent,
   ],
   imports: [
     BrowserModule,

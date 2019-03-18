@@ -1,1 +1,19 @@
-<Button text="student works!" class="btn btn-primary"></Button>
+<StackLayout>
+  <ListView
+    class="list-group"
+    [items]="assignments"
+    (itemTap)="onSelectAssignment($event)"
+    style="height:100%"
+  >
+    <ng-template let-assignment="item">
+      <FlexboxLayout flexDirection="row" class="list-group-item">
+        <Label
+          [text]="assignment.name"
+          class="list-group-item-heading"
+          verticalAlignment="center"
+          style="width: 60%"
+        ></Label>
+      </FlexboxLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>
