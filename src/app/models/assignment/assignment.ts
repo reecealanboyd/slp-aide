@@ -1,3 +1,3 @@
 export class Assignment {
-    constructor(image: string, questions: {}) {}
+    constructor(name: string, image: string, questions: {}) {}
 }
