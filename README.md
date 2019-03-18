@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
 
+This project will look like these Adobe XD mockups when complete:
+iOS: https://xd.adobe.com/view/1b77f3da-c8fc-442a-40d0-f34988827b92-6d46/
+Android: https://xd.adobe.com/view/8734dea7-09b5-40b7-56b0-bc4de840c582-f105/
+
 ## Development server
 
 Web: Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
