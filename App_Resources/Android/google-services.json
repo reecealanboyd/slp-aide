@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "816405902081",
+    "firebase_url": "https://slp-aide.firebaseio.com",
+    "project_id": "slp-aide",
+    "storage_bucket": "slp-aide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816405902081:android:4c3ae8d810ca4951",
+        "android_client_info": {
+          "package_name": "org.nativescript.slpaide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816405902081-9fu2kcqfneg05otvjno3eoegvn9b4l9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgp_zg9I2wGcGwDGNsfxd5y6ODlCu_Ntw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
