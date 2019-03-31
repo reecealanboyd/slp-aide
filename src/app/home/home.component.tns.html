@@ -1,10 +1,14 @@
 <TabView androidTabsPosition="bottom">
-  <StackLayout *tabItem="{ title: 'Assignments' }">
+  <!-- <StackLayout *tabItem="{ title: 'Assignments' }">
     <app-assignment-list></app-assignment-list>
-    <!-- <app-assignment></app-assignment> -->
   </StackLayout>
   <StackLayout *tabItem="{ title: 'Students' }">
       <app-student-list></app-student-list>
-      <!-- <app-student></app-student> -->
+  </StackLayout> -->
+  <StackLayout *tabItem="{ title: 'Assignments' }">
+    <router-outlet name="assignmentList"></router-outlet>
+  </StackLayout>
+  <StackLayout *tabItem="{ title: 'Students' }">
+    <router-outlet name="studentList"></router-outlet>
   </StackLayout>
 </TabView>

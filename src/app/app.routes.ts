@@ -20,14 +20,19 @@ export const routes: Routes = [
   {
       path: 'home',
       component: HomeComponent,
-  },
-  {
-    path: 'student-list',
-    component: StudentListComponent
-  },
-  {
-    path: 'assignment-list',
-    component: AssignmentListComponent
+      children: [
+        {
+          path: 'student-list',
+          component: StudentListComponent,
+          outlet: 'studentList'
+        },
+        {
+          path: 'assignment-list',
+          component: AssignmentListComponent,
+          outlet: 'assignmentList'
+        },
+
+      ]
   },
   {
     path: 'assignment',
