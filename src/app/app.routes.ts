@@ -9,6 +9,7 @@ import { AttemptListComponent } from './components/attempt-list/attempt-list.com
 import { AssignmentControlComponent } from './components/assignment-control/assignment-control.component';
 import { AssignmentDetailComponent } from './components/assignment-detail/assignment-detail.component';
 import { AttemptComponent } from './components/attempt/attempt.component';
+import { CreateStudentComponent } from './components/create-student/create-student.component';
 
 export const routes: Routes = [
   {
@@ -51,5 +52,9 @@ export const routes: Routes = [
   {
     path: 'attempt',
     component: AttemptComponent
+  },
+  {
+    path: 'create-student',
+    component: CreateStudentComponent
   }
 ];

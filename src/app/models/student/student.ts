@@ -1,6 +1,6 @@
-import { Assignment } from "../assignment/assignment";
-import { Attempt } from "../attempt/attempt";
+import { Assignment } from '../assignment/assignment';
+import { Attempt } from '../attempt/attempt';
 
 export class Student {
-    constructor(assignments: Assignment[], attempts: Attempt[], initials: string) {}
+    constructor(initials: string, email: string, assignments?: Assignment[], attempts?: Attempt[]) {}
 }

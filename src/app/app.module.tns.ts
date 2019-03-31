@@ -14,6 +14,7 @@ import { AttemptComponent } from './components/attempt/attempt.component';
 import { LoginComponent } from './components/login/login.component';
 import { LanguageComponent } from './components/language/language.component';
 import { AssignmentControlComponent } from './components/assignment-control/assignment-control.component';
+import { CreateStudentComponent } from './components/create-student/create-student.component';
 
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
@@ -36,6 +37,7 @@ import { AssignmentControlComponent } from './components/assignment-control/assi
     LoginComponent,
     LanguageComponent,
     AssignmentControlComponent,
+    CreateStudentComponent,
   ],
   imports: [
     NativeScriptModule,
