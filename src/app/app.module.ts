@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NativeScriptFormsModule } from 'nativescript-angular/forms';
+import { NativeScriptHttpClientModule } from 'nativescript-angular/http-client';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,6 +38,8 @@ import { CreateStudentComponent } from './components/create-student/create-stude
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NativeScriptFormsModule,
+    NativeScriptHttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

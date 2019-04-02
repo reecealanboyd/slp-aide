@@ -10,12 +10,17 @@ import { AssignmentControlComponent } from './components/assignment-control/assi
 import { AssignmentDetailComponent } from './components/assignment-detail/assignment-detail.component';
 import { AttemptComponent } from './components/attempt/attempt.component';
 import { CreateStudentComponent } from './components/create-student/create-student.component';
+import { LoginComponent } from './components/login/login.component';
 
 export const routes: Routes = [
   {
       path: '',
-      redirectTo: '/home',
+      redirectTo: '/login',
       pathMatch: 'full',
+  },
+  {
+    path: 'login',
+    component: LoginComponent
   },
   {
       path: 'home',
