@@ -1,5 +1,7 @@
 # slp-aide
 
+SLP-Aide is a cross-platform native mobile application written for Speech Language Pathologists (SLPs). SLP-Aide allows SLPs to find and assign activities to their students, and it allows students to complete the activities with results generated automatically for their SLP. The SLP-Aide application is written in NativeScript and Angular. SLP-Aide also has a Node.js API and MongoDB data source.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
 
 This project will look like these Adobe XD mockups when complete:
