@@ -1,1 +1,7 @@
 /* Add mobile styles for the component here.  */
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}

@@ -1,23 +1,22 @@
 <StackLayout>
-        <StackLayout>
-          <Image [src]="assignment.image"></Image>
-        </StackLayout>
-        <StackLayout>
-          <Label [text]="assignment.questions.q"></Label>
-          <Label [text]="assignment.questions.a[0]"></Label>
-          <Label [text]="assignment.questions.a[1]"></Label>
-          <Label [text]="assignment.questions.a[2]"></Label>
-          <Label [text]="assignment.questions.a[3]"></Label>
-          <Label [text]="assignment.questions.q2"></Label>
-          <Label [text]="assignment.questions.a2[0]"></Label>
-          <Label [text]="assignment.questions.a2[1]"></Label>
-          <Label [text]="assignment.questions.a2[2]"></Label>
-          <Label [text]="assignment.questions.a2[3]"></Label>
-          <Label [text]="assignment.questions.q3"></Label>
-          <Label [text]="assignment.questions.a3[0]"></Label>
-          <Label [text]="assignment.questions.a3[1]"></Label>
-          <Label [text]="assignment.questions.a3[2]"></Label>
-          <Label [text]="assignment.questions.a3[3]"></Label>
-        </StackLayout>
-      </StackLayout>
-      
+  <StackLayout>
+    <Image [src]="assignment.image"></Image>
+  </StackLayout>
+  <StackLayout>
+    <Label class="m-b-1 m-l-10 font-weight-bold" [text]="assignment.questions.q"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a[0]"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a[1]"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a[2]"></Label>
+    <Label class="m-b-2 m-l-10  correct font-weight-bold" [text]="assignment.questions.a[3]"></Label>
+    <Label class="m-b-1 m-l-10 font-weight-bold" [text]="assignment.questions.q2"></Label>
+    <Label class="m-b-1 m-l-10 incorrect font-weight-bold" [text]="assignment.questions.a2[0]"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a2[1]"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a2[2]"></Label>
+    <Label class="m-b-2 m-l-10" [text]="assignment.questions.a2[3]"></Label>
+    <Label class="m-b-1 m-l-10 font-weight-bold" [text]="assignment.questions.q3"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a3[0]"></Label>
+    <Label class="m-b-1 m-l-10 correct font-weight-bold" [text]="assignment.questions.a3[1]"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a3[2]"></Label>
+    <Label class="m-b-1 m-l-10" [text]="assignment.questions.a3[3]"></Label>
+  </StackLayout>
+</StackLayout>
