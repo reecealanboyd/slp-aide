@@ -26,9 +26,8 @@ export class AttemptListComponent implements OnInit {
           name: 'Dana the Dairy Cow',
           image: '',
           questions: {}
-        }, 
+        },
         responses: {
-          
         }
       },
       {

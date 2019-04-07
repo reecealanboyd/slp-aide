@@ -30,18 +30,8 @@ export class AssignmentControlComponent implements OnInit {
         assignments: [],
         attempts: [],
         initials: 'JD'
-      },
-      {
-        assignments: [],
-        attempts: [],
-        initials: 'LP'
-      },
-      {
-        assignments: [],
-        attempts: [],
-        initials: 'SG'
       }
-    ]
+    ];
   }
 
   onSelectAssignment(args: ItemEventData) {

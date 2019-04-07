@@ -17,16 +17,6 @@ export class StudentListComponent implements OnInit {
         assignments: [],
         attempts: [],
         initials: "JD"
-      },
-      {
-        assignments: [],
-        attempts: [],
-        initials: "LP"
-      },
-      {
-        assignments: [],
-        attempts: [],
-        initials: "SG"
       }
     ];
   }

@@ -19,18 +19,8 @@ export class AssignmentComponent implements OnInit {
         name: 'Dana the Dairy Cow',
         image: '',
         questions: {}
-      },
-      {
-        name: 'Matt the Moose',
-        image: '',
-        questions: {}
-      },
-      {
-        name: 'Sarah the Snake',
-        image: '',
-        questions: {}
       }
-    ]
+    ];
   }
 
   ngOnInit() {
