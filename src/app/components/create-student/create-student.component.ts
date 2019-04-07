@@ -11,8 +11,8 @@ import { StudentService } from '~/app/services/student/student.service';
 })
 export class CreateStudentComponent implements OnInit, OnDestroy {
 
-  initials: string;
-  email: string;
+  username: string;
+  password: string;
   currentStudent: Student;
   // private currentStudentSubscription: Subscription;
 
@@ -26,7 +26,7 @@ export class CreateStudentComponent implements OnInit, OnDestroy {
 
   onSelectCreateStudent() {
     // this.studentService.createNewStudent('yolo', 'yolo@email');
-    alert(`You're using ${this.initials} and ${this.email}`);
+    alert(`You're using ${this.username} and ${this.password}`);
   }
 
   ngOnDestroy() {

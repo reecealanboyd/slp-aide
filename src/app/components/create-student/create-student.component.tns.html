@@ -1,6 +1,6 @@
-<StackLayout class="input-field">
-  <TextField hint="Student initials" class="input input-border" [(ngModel)]="initials"> </TextField>
-  <TextField hint="Student email" class="input input-border" [(ngModel)]="email"> </TextField>
+<StackLayout>
+  <TextField hint="Student username" class="input input-border m-10" [(ngModel)]="username"> </TextField>
+  <TextField hint="Student password" class="input input-border m-10" [(ngModel)]="password"> </TextField>
   <Button
     class="btn btn-primary"
     (tap)="onSelectCreateStudent()"

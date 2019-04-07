@@ -1,13 +1,9 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
-  <Page.actionBar>
-      <ActionBar title="SLP Aide"></ActionBar>
-  </Page.actionBar>
-  <StackLayout class="bg-primary">
+  <StackLayout>
     <ListView
       class="list-group"
       [items]="students"
       (itemTap)="onSelectStudent($event)"
-      style="height:50%"
+      style="height:90%"
     >
       <ng-template let-student="item">
         <FlexboxLayout flexDirection="row" class="list-group-item">
@@ -21,11 +17,12 @@
       </ng-template>
     </ListView> 
 
-  <Label 
+  <!-- <Label 
   text="Create new student" 
   class="list-group-item-heading"
   verticalAlignment="center"
   (tap)="onSelectCreateStudent($event)">
-</Label>
+</Label> -->
+<Button class="btn btn-primary btn-rounded-sm" text="Create new student" (tap)="onSelectCreateStudent($event)"></Button>
+
 </StackLayout>
-</Page>
