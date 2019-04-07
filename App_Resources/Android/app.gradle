@@ -1,9 +1,9 @@
 // Add your native dependencies here:
 
 // Uncomment to add recyclerview-v7 dependency
-//dependencies {
-//	compile 'com.android.support:recyclerview-v7:+'
-//}
+// dependencies {
+// 	// compile 'com.android.support:recyclerview-v7:+'
+// }
 
 android {  
   defaultConfig {  
@@ -16,11 +16,18 @@ android {
     //   		abiFilters "armeabi-v7a"
  		// }
   
-  }  
+  }
   aaptOptions {  
     additionalParameters "--no-version-vectors"  
   }  
+  defaultConfig {
+	  multiDexEnabled true
+	}
 } 
+
+dependencies {
+	compile "com.android.support:multidex:1.0.0"
+}
 
 def settingsGradlePath
 
