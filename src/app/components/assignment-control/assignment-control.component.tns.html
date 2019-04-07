@@ -1,4 +1,4 @@
-<StackLayout>
+<StackLayout class="page">
   <ListView
     class="list-group"
     [items]="assignments"
@@ -23,13 +23,20 @@
     style="height:100%"
   >
     <ng-template let-student="item">
-      <FlexboxLayout flexDirection="row" class="list-group-item">
+      <FlexboxLayout alignItems="flex-start" class="list-group-item">
         <Label
           [text]="student.initials"
           class="list-group-item-heading"
           verticalAlignment="center"
-          style="width: 60%"
+          style="width: 80%"
         ></Label>
+        <!-- <Label
+          [text]="student.initials"
+          class="list-group-item-heading"
+          verticalAlignment="center"
+          alignSelf="flex-end"
+        ></Label> -->
+        <Switch checked="true" class="switch" isEnabled="true" id="my-switch" alignSelf="flex-end"></Switch>
       </FlexboxLayout>
     </ng-template>
   </ListView>
