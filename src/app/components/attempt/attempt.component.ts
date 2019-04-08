@@ -22,7 +22,9 @@ export class AttemptComponent implements OnInit {
         q2: 'What did Dana dream of?',
         a2: ['Barn', 'Dandelion', 'Field', 'Daisies'],
         q3: 'What did Dana walk around?',
-        a3: ['Barn', 'Dandelion', 'Field', 'Daisies']
+        a3: ['Barn', 'Dandelion', 'Field', 'Daisies'],
+        q4: 'What swayed in the wind?',
+        a4: ['Barn', 'Dandelion', 'Field', 'Daisies']
       }
     };
   }

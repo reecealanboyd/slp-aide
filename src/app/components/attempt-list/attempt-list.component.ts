@@ -19,9 +19,9 @@ export class AttemptListComponent implements OnInit {
   ngOnInit() {    
     this.attempts = [
       {
-        number: 3,
-        time: "00:13:37", 
-        score: "7/10", 
+        number: 2,
+        time: "00:00:15", 
+        score: "3/4", 
         assignment: {
           name: 'Dana the Dairy Cow',
           image: '',
@@ -31,22 +31,9 @@ export class AttemptListComponent implements OnInit {
         }
       },
       {
-        number: 2,
-        time: "00:15:21", 
-        score: "5/10", 
-        assignment: {
-          name: 'Dana the Dairy Cow',
-          image: '',
-          questions: {}
-        }, 
-        responses: {
-          
-        }
-      },
-      {
         number: 1,
-        time: "00:16:12", 
-        score: "3/10", 
+        time: "00:00:13", 
+        score: "2/4", 
         assignment: {
           name: 'Dana the Dairy Cow',
           image: '',
@@ -56,7 +43,7 @@ export class AttemptListComponent implements OnInit {
           
         }
       }
-    ]
+    ];
   }
 
   onSelectAttempt(args: ItemEventData) {
