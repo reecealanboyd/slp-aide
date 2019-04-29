@@ -3,7 +3,7 @@
           class="list-group"
           [items]="attempts"
           (itemTap)="onSelectAttempt($event)"
-          style="height:100%"
+          style="height:90%"
         >
           <ng-template let-attempt="item">
             <FlexboxLayout flexDirection="row" class="list-group-item">
@@ -34,5 +34,6 @@
             </FlexboxLayout>
           </ng-template>
         </ListView>
+        <Button class="btn btn-primary btn-rounded-sm" text="Take Assignment" (tap)="onSelectTakeAssignment($event)"></Button>
       </StackLayout>
       

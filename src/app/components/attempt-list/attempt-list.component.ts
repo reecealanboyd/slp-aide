@@ -50,4 +50,8 @@ export class AttemptListComponent implements OnInit {
     this.router.navigate(['attempt']);
   }
 
+  onSelectTakeAssignment(args: ItemEventData) {
+    this.router.navigate(['/take-assignment'])
+  }
+
 }

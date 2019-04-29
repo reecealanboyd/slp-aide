@@ -11,6 +11,7 @@ import { AssignmentDetailComponent } from './components/assignment-detail/assign
 import { AttemptComponent } from './components/attempt/attempt.component';
 import { CreateStudentComponent } from './components/create-student/create-student.component';
 import { LoginComponent } from './components/login/login.component';
+import { TakeAssignmentComponent } from './components/take-assignment/take-assignment.component';
 
 export const routes: Routes = [
   {
@@ -66,5 +67,9 @@ export const routes: Routes = [
   {
     path: 'create-student',
     component: CreateStudentComponent
+  },
+  {
+    path: 'take-assignment',
+    component: TakeAssignmentComponent
   }
 ];
